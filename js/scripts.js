@@ -2,6 +2,7 @@ var questionOne;
 var questionTwo;
 var questionThree;
 var questionFour;
+var questionFive;
 var userName;
 var result=parseInt(questionOne)+ parseInt(questionTwo)+ parseInt(questionThree)+parseInt(questionFour)+ parseInt(questionFive);
 var percentage=(result/25)*100;
