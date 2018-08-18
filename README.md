@@ -14,7 +14,7 @@ He/She is then prompted to enter his/her name and then click the Let's Begin but
 Clicking the Let's Begin displays the first question and to display the second question the user presses the next button and so on there are five questions.<br>
 After answering the fifth question one clicks the submit button that displays the results .<br>
 
-# Input output
+# Specifications
 Question one.<br>
 Input Example: False<br>
 Output Example: The user is assigned five marks<br>
