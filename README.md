@@ -1,6 +1,6 @@
 
 # Quiz Board
-Quiz Board-A simple program to ask the user questions based on JavaScript and then display their results <a href="">click here</a>
+Quiz Board-A simple program to ask the user questions based on JavaScript and then display their results <a href=" https://lornakimani62.github.io/Quiz-Board/">click here</a>
 
 # Author-Name
 Lorna Nashipae Kimani
