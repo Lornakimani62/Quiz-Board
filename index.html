@@ -9,52 +9,61 @@
   </head>
   <body>
   <div class="container">
-    <div class="content">
-      <h1></>Knights Computer CLub</></h1>
-      <em>We code for a living</em>
-      <p>Hey there you have been redirected to this page inorder to take a small and simple quiz on a course you recently completed on JavaScript</p>
-      <p>Don't worry it is a completely easy quiz</p>
-      <p>However, before we start I want to ensure you are completely comfortable</p>
-      <p>Click the button below to start when ready</p>
-          <button class="btn btn-primary" id="start">Let"s Begin</button>
+      <div class="jumbotron">
 
+      <h1></>Knights Computer Club</></h1>
+      <strong><em>"We code for food"</em></strong>
+      <p>Hi there! this is a small and simple quiz on a JavaScript course you recently completed</p>
+      <p>Kindly submit your name and click the button below to start</p>
+    <form class="form-inline">
+      <div class="form-group">
+        <label class="sr-only" for="name">What is your name</label>
+        <div class="input-group">
+          <div class="input-group-addon">@</div>
+      <input type="text" class="form-control" id="name" placeholder="eg Lorna kimani">
+    </div>
+  </div>
+</form><br>
+    <button class="btn btn-primary btn-lg" id="start" >Let"s Begin</button>
+      <p>NB: For the best results kindly ensure to answer all the questions</p>
+      <p>ALL THE BEST!</p>
     </div>
 
-    <form id="input">
-<div class="question1">
-  <div class="row">
-    <div class="col-md-8">
-      <div class="panel panel-info">
-        <div class="panel-heading">
-          <h2 class="panel-title"> Question One</h2>
-        </div>
-        <div class="panel-body">
-          <div class="form-group">
-            <label for="question1"> Is it true to say JavaScript is the same as Java </label>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" id="optionsRadios1" value="5">
-                True
-              </label>
+<form id="input">
+  <div class="question1">
+    <div class="well">
+      <div class="row">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h2 class="panel-title"> Question One</h2>
             </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="question1" id="optionsRadios2" value="0">
-                False
-              </label>
+            <div class="panel-body">
+              <div class="form-group">
+                <label for="question1"> Is it true to say JavaScript is the same as Java </label>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question1" id="optionsRadios1" value="0">
+                    True
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="question1" id="optionsRadios2" value="5">
+                    False
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="panel-footer">
+              <button type="button" class="btn btn-primary" id="question1">Next</button>
             </div>
           </div>
         </div>
-        <div class="panel-footer">
-          <button type="button" class="btn btn-primary" id="question1">Next</button>
-        </div>
       </div>
-      </div>
-    </div>
-    </div>
+  </div>
 <div class="question2">
+  <div class="well">
     <div class="row">
-      <div class="col-md-8">
         <div class="panel panel-info">
           <div class="panel-heading">
             <h2 class="panel-title"> Question two</h2>
@@ -74,55 +83,129 @@
                   Head
                 </label>
               </div>
-      <div class="radio">
-        <label>
-          <input type="radio" name="question2" id="optionsRadios3" value="0">
-            Body
-        </label>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question2" id="optionsRadios3" value="0">
+                  Body
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="panel-footer">
+            <button type="button" class="btn btn-primary" id="question2">Next</button>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-    <div class="panel-footer">
-      <button type="button" class="btn btn-primary" id="question2">Next</button>
-    </div>
-</div>
-</div>
-</div>
-</div>
 <div class="question3">
-<div class="row">
-  <div class="col-md-8">
-    <div class="panel panel-info">
-      <div class="panel-heading">
-        <h2 class="panel-title"> Question three</h2>
-      </div>
-        <div class="panel-body">
-        <div class="form-group">
-          <label for="question3">Is it true that the external script file must contain the script tag?</label>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question3" id="optionsRadios1" value="0">
-              True
-          </label>
+  <div class="well">
+    <div class="row">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h2 class="panel-title"> Question three</h2>
+          </div>
+          <div class="panel-body">
+            <div class="form-group">
+              <label for="question3">Which of these two options is a keyword for declaring variables?</label>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" id="optionsRadios1" value="0">
+                  VAR
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question3" id="optionsRadios2" value="5">
+                  var
+                </label>
+              </div>
+            </div>
+          </div>
+          <div class="panel-footer">
+            <button type="button" class="btn btn-primary" id="question3">Next</button>
+          </div>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="question3" id="optionsRadios2" value="5">
-              False
-          </label>
+      </div>
+    </div>
+</div>
+
+<div class="question4">
+  <div class="well">
+    <div class="row">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h2 class="panel-title">Question Four</h2>
+          </div>
+          <div class="panel-body">
+            <div class="form-group">
+              <label for="question4">Which of the following operators stands for not equal to?</label>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" id="optionsRadios1" value="5">
+                  !==
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" id="optionsRadios1" value="0">
+                  !=
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="question4" id="optionsRadios2" value="0">
+                  ===
+                </label>
+              </div>
+          </div>
         </div>
-      </div>
-      </div>
         <div class="panel-footer">
-          <button type="submit" class="btn btn-primary" id="question3">submit</button>
+          <button type="button" class="btn btn-primary" id="question4">Next</button>
         </div>
+      </div>
     </div>
   </div>
 </div>
-</div>
+<div class="question5">
+  <div class="well">
+    <div class="row">
+      <div class="panel panel-info">
+        <div class="panel-heading">
+          <h2 class="panel-title"> Question Five</h2>
+        </div>
+            <div class="panel-body">
+            <div class="form-group">
+              <label for="question5">Is it true that the external script file must contain the script tag?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="question5" id="optionsRadios1" value="0">
+                  True
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="question5" id="optionsRadios2" value="5">
+                  False
+              </label>
+            </div>
+          </div>
+        </div>
+          <div class="panel-footer">
+            <button type="submit" class="btn btn-primary" id="question5" onClick="refresh">submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </form>
 </div>
-  <div id="output"></div>
-  </div>
+    <div id="output">
+      <div class="well">
+        <p>Name: <span class="name"></span></p>
+        <p>Your score: <span class="result"></span>/25</p>
+        <p>Your percentage: <span class="percentage"></span>%</p>
+      </div>
+    </div>
   </body>
 </html>
