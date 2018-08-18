@@ -44,3 +44,10 @@ Bootstrap<br>
 JavaScript<br>
 Css<br>
 Atom<br>
+
+# License
+GNU<br>
+
+# Copyright
+<footer>&copy; Copyright 2018 HTML.am</footer>
+
